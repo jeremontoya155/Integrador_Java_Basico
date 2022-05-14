@@ -1,0 +1,133 @@
+
+Errores de
+ejecucion 
+compilacion
+
+EJECUCION:
+Cuando nosotros vemos recien el error en el momento de da accion al programa 
+En estos caso el id no nos avisa del error 
+
+COMPILACION:
+Ocurre cuando el mismo ide nos avisa previo a ejecutar el error
+
+--------------------------------------------------
+Cuales son los operadores relacionales y para que funcionan
+
+>= mayor igual
+<= menor igual
+== iguales
+!= distintos
+< menor 
+> mayor
+
+--------------------------------------------
+
+Operadores condicionales 
+&& and ()&&() nos da la condicion de verdadero en caso de que
+ambas condiciones sean verdadera
+
+
+(t)&&(f)->f
+(t)&&(t)->t
+(f)&&(t)->f
+(f)&&(f)->f
+
+
+
+ 
+|| or 
+cumple condicion en caso de que por lo menos una de las dos se cumpla 
+
+(t)||(f)->t
+(t)||(t)->t
+(f)||(t)->t
+(f)||(f)->f
+
+
+----------------------------------------------
+Que hacen las estructuras condicionales
+
+Determinar la salida de un programa para una condicion en especifico
+
+
+--------------------------------------
+
+Objetivo del condicional if/else/else if
+
+Dar curso de accion a un caso en el cual lo que estamos
+ejecutando puede tomar true  (if) (else if) o false (else)
+
+-----------------------------------------------------------
+Caso de uso del switch 
+Ejecuta un bloque de codigo correspondiente al valor de una sentencia, esto se aplica para una unica varibale de entrada 
+
+
+------------------------------------------------------
+
+Que hacen las estructuras de los bucles
+
+Permiten hacer la cantidad de repeticiones necesarias para comprobar una decision en un bloque de accion
+----------------------------------------------------------
+Bucle for y fore
+
+son bucles que utilizamos para recorrer arrays o cuando tenemos
+una cantidad de pasos espcifica
+
+-------------------------------------------------------
+
+Que es un bucle while y cuales son los casos que vimos
+
+lo usamos para diversasa acciones en caso de que no sepamos cuando es el corte
+o cuando necesitmaos una condicion para el corte 
+
+--------------------------------------------------------------------
+Cual es la razon por la cual los bucles entran un bucle infinito
+
+Cuando nunca se cumple la condicion de cambio o no se da esta misma 
+
+------------------------------------------------------------------
+array que es ?
+caracteristicas 
+
+array es un conjunto finito de datos que pertenecen a una misma clase 
+
+----------------------------------
+Ejemplo de carga completa general 
+
+
+/*
+
+Para implementar todos los casos de manera completa vamos a realizar lo siguiente 
+
+un programa que realize la carga del array de String de manera dinamica
+
+para el mismo vamos a hacer verificacion siguiendon los pasos que vamos a aclarar 
+
+1-Para la cargar del array debemos pasarle la cantidad de elementos que van a componer al mismo 
+
+2-una vez definido el array con la cantidad de elementos vamos a tener tambien una variable opcion
+
+la cual va a preguntar si se quiere cargar el array ingresado con String de manera dinamica (en este caso nombres) con un "SI"
+
+3-en este caso vamos a ver si la respuesta es correcta dejando posibilidad a que la persona se equivoque 3 veces , en caso de que esto ocurra el programa finalizaria aqui
+
+4-si la persona cargo de manera correcta el arreglo vamos a preguntar si quiere mostrar el mismo con un si o un no indicando que ingrese (1) para si y (2) para no 
+
+5-en caso de que ingrese 2 se termina el programa con un saludo , caso de ingresar 1 mostramos una por una la lista, para cualquier otro ingreso simplemente finalizamos diciendo que hubo un error
+
+CONDICION 
+
+SE DEBE USAR IF ELSE SWITCH FORE FORI WHILE y NO SE DEBE REPETIR NINGUNO DE ELLOS MAS DE UNA VEZ
+
+
+
+
+
+
+
+
+*/
+
+
+
+
